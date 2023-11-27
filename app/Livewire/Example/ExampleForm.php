@@ -102,11 +102,10 @@ class ExampleForm extends Component
 
     protected function autocode(): string
     {
-        $prefix = 'CNT/'.date('y').'/'.date('m').'/';
+        $prefix = 'EXM/'.date('y').'/'.date('m').'/';
         Code::updateOrCreate(
             ['prefix' => $prefix],
-            ['num' => DB::raw('num+1')]
-        );
+        )->increment('num');
         $code = Code::where('prefix', $prefix)->first();
         return $code->prefix . Str::padLeft($code->num, 4, '0');
     }
