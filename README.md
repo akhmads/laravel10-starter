@@ -10,8 +10,18 @@
 
 -   User Login
 -   User Register
--   Change Password
--   Change Profile
+-   User manager with CRUD functionality, pagination, search and sort
+-   Example resource include
+    -   Text input
+    -   Textarea
+    -   Select
+    -   Checkbox
+    -   Auto code generator
+    -   Email with unique validation
+    -   Upload an avatar
+    -   Contact picker (beta)
+-   Change Password (upcoming...)
+-   Change Profile (upcoming...)
 
 ### Installation
 
@@ -48,7 +58,7 @@ php artisan migrate
 php artisan serve
 ```
 
-Open the address looks like http://127.0.0.1:8000 on your browser
+Open the address http://127.0.0.1:8000 on your browser
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
