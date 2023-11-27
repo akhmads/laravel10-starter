@@ -1,5 +1,7 @@
 ## Laravel 10 Starter
 
+Laravel 10 Starter includes tailwindcss, livewire and several standard features like user login, register and user management.
+
 ### Stacks
 
 -   Laravel
