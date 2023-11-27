@@ -13,6 +13,28 @@
 -   Change Password
 -   Change Profile
 
+### Installation
+
+Open terimal or command prompt and type below
+
+```
+git clone https://github.com/akhmads/laravel10-starter.git
+cd laravel10-starter
+composer install
+npm run build
+```
+
+Create .env file and setting your database account
+
+```
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=laravel
+DB_USERNAME=postgres
+DB_PASSWORD=YourPassword
+```
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
