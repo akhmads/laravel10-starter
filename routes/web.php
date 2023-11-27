@@ -17,8 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('test', function () {
-    return view('test');
+Route::middleware('auth')->group(function () {
+    Route::get('/home',                 function () { return view('home'); })->name('home');
+    Route::get('/user',                 App\Livewire\User\UserTable::class)->name('user');
+    Route::get('/user/{id}',            App\Livewire\User\UserForm::class)->name('user.form');
+    Route::get('/example',              App\Livewire\Example\ExampleTable::class)->name('example');
+    Route::get('/example/{id}',         App\Livewire\Example\ExampleForm::class)->name('example.form');
 });
 
 

@@ -56,6 +56,13 @@ return [
             'throw' => false,
         ],
 
+        'avatar_disk' => [
+            'driver' => 'local',
+            'root' => public_path('avatar'),
+            'url' => env('APP_URL').'/avatar',
+            'visibility' => 'public',
+            'throw' => false,
+        ],
     ],
 
     /*
