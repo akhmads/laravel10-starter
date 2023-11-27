@@ -28,6 +28,12 @@ Laravel 10 Starter includes tailwindcss, livewire and several standard features 
 -   Change Password (upcoming...)
 -   Change Profile (upcoming...)
 
+### Requirements
+
+-   PHP version 8.1
+-   Composer
+-   NodeJS 18+
+
 ### Installation
 
 Open terimal or command prompt and type below
