@@ -2,9 +2,11 @@
 
 ### Stacks
 
+-   Laravel
 -   Tailwindcss
--   Livewire
+-   Livewire (include AlpineJS)
 -   Laravel Fortify
+-   Jetstream (view component only)
 
 ### Feature
 
@@ -12,6 +14,7 @@
 -   User Register
 -   User manager with CRUD functionality, pagination, search and sort
 -   Example resource include
+    -   Table
     -   Text input
     -   Textarea
     -   Select
