@@ -21,6 +21,9 @@ Open terimal or command prompt and type below
 git clone https://github.com/akhmads/laravel10-starter.git
 cd laravel10-starter
 composer install
+composer update
+npm install
+npm update
 npm run build
 ```
 
@@ -44,6 +47,8 @@ php artisan key:generate
 php artisan migrate
 php artisan serve
 ```
+
+Open the address looks like http://127.0.0.1:8000 on your browser
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
