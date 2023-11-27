@@ -31,7 +31,7 @@
             <x-hyco.nav-dropdown-item class="cursor-pointer">
                 <form method="POST" action="{{ route('logout') }}" x-data>
                     @csrf
-                    <span @click.prevent="$root.submit();">
+                    <span @click.prevent="$root.submit();" class="block w-full">
                         {{ __('Log Out') }}
                     </span>
                 </form>
