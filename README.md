@@ -4,6 +4,7 @@
 
 -   Tailwindcss
 -   Livewire
+-   Laravel Fortify
 
 ### Feature
 
