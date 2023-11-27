@@ -27,7 +27,7 @@ npm update
 npm run build
 ```
 
-Create .env file and setting your database account
+Copy file .env.example to .env file and setting your database account
 
 ```
 ...
