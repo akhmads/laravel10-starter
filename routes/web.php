@@ -20,3 +20,19 @@ Route::get('/', function () {
 Route::get('test', function () {
     return view('test');
 });
+
+
+// Clear all cache
+// ------------------------------------
+Route::get('/sys/clear', function () {
+    Artisan::call('view:clear');
+    dump(Artisan::output());
+    Artisan::call('cache:clear');
+    dump(Artisan::output());
+    Artisan::call('config:clear');
+    dump(Artisan::output());
+    Artisan::call('event:clear');
+    dump(Artisan::output());
+    Artisan::call('route:clear');
+    dump(Artisan::output());
+});

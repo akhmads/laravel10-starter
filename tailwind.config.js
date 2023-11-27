@@ -1,4 +1,6 @@
 import defaultTheme from "tailwindcss/defaultTheme";
+import forms from "@tailwindcss/forms";
+import typography from "@tailwindcss/typography";
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -16,5 +18,5 @@ module.exports = {
             },
         },
     },
-    plugins: [],
+    plugins: [forms, typography],
 };
