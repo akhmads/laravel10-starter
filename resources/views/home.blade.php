@@ -24,16 +24,15 @@
                         <p>Laravel 10 Starter includes tailwindcss, livewire and several standard features like user login, register and user management.</p>
                         <h3>Feature</h3>
                         <ul>
-                        <li>User Login</li>
-                        <li>User Register
-                        <li>User manager with CRUD functionality, pagination, search and sort</li>
-                        <li>Example resource</li>
+                        <li>User Login and Register</li>
+                        <li><a href="{{ url('user') }}">User manager</a> with CRUD functionality, pagination, search and sort</li>
+                        <li><a href="{{ url('example') }}">Example resource</a></li>
                         </ul>
                         <h3>Example resource include</h3>
                         <ul>
-                        <li>Table, Text input, Textarea, Select, Checkbox</li>
-                        <li>Auto code generator</li>
-                        <li>Email with unique validation</li>
+                        <li>Table list and form like Text input, Textarea, Select, Checkbox</li>
+                        <li>Auto code generator field</li>
+                        <li>Email field with unique validation</li>
                         <li>Upload an avatar</li>
                         <li>Contact picker (beta)</li>
                         </ul>
