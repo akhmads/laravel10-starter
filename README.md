@@ -6,7 +6,8 @@ Laravel 10 Starter includes tailwindcss, livewire and several standard features 
 
 -   Laravel
 -   Tailwindcss
--   Livewire (include AlpineJS)
+-   Livewire
+-   Alpine JS
 -   Laravel Fortify
 -   Jetstream (view component only)
 
