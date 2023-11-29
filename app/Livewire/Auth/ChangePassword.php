@@ -3,11 +3,8 @@
 namespace App\Livewire\Auth;
 
 use Livewire\Component;
-use Illuminate\Validation\Rule;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
-use App\Models\User;
 use App\Rules\MatchOldPassword;
 
 class ChangePassword extends Component

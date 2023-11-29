@@ -5,9 +5,7 @@ namespace App\Livewire\Auth;
 use Livewire\Component;
 use Illuminate\Validation\Rule;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
-use App\Models\User;
 
 class ChangeProfile extends Component
 {
@@ -37,13 +35,7 @@ class ChangeProfile extends Component
         $auth->name = $this->name;
         $auth->email = $this->email;
         $auth->save();
-
-        // if( empty($this->password) ){
-        //     unset($valid['password']);
-        // }else{
-        //     $valid['password'] = Hash::make($this->password);
-        // }
-        
+   
         session()->flash('success', __('Profile saved'));
     }
 }
