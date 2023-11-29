@@ -26,8 +26,8 @@ Laravel 10 Starter includes tailwindcss, livewire and several standard features 
     -   Email with unique validation
     -   Upload an avatar
     -   Contact picker (beta)
+-   Change Profile
 -   Change Password (upcoming...)
--   Change Profile (upcoming...)
 
 ### Requirements
 
