@@ -1,6 +1,6 @@
 ## Laravel 10 Starter
 
-Laravel 10 Starter includes tailwindcss, livewire and several standard features like user login, register and user management.
+Laravel 10 Starter includes tailwindcss, livewire and several standard features like user login, register and user management for your awesome applications.
 
 ### Stacks
 
@@ -25,7 +25,7 @@ Laravel 10 Starter includes tailwindcss, livewire and several standard features 
     -   Auto code generator
     -   Email with unique validation
     -   Upload an avatar
-    -   Contact picker (beta)
+    -   Contact picker
 -   Change Profile
 -   Change Password (upcoming...)
 

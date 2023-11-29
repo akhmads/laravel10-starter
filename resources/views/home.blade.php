@@ -34,7 +34,7 @@
                         <li>Auto code generator field</li>
                         <li>Email field with unique validation</li>
                         <li>Upload an avatar</li>
-                        <li>Contact picker (beta)</li>
+                        <li>Contact picker</li>
                         </ul>
 
                         <div class="mt-10">

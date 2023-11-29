@@ -22,10 +22,6 @@
                             <div class="border-t border-gray-200"></div>
                         </div>
                     </div>
-                    <div class="text-sm mt-5 space-y-2">
-                        <p>{{ __('Password is required for creating data but optional in editing') }}.</p>
-                        <p>{{ __('Use a strong password and change it regularly') }}.</p>
-                    </div>
                 </x-slot>
 
                 <x-slot name="form">

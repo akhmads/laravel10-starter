@@ -20,6 +20,7 @@ Route::get('/', function () {
 Route::middleware('auth')->group(function () {
     Route::get('/home',                 function () { return view('home'); })->name('home');
     Route::get('/change-profile',       App\Livewire\Auth\ChangeProfile::class)->name('auth.change-profile');
+    Route::get('/change-password',       App\Livewire\Auth\ChangePassword::class)->name('auth.change-password');
     Route::get('/user',                 App\Livewire\User\UserTable::class)->name('user');
     Route::get('/user/{id}',            App\Livewire\User\UserForm::class)->name('user.form');
     Route::get('/example',              App\Livewire\Example\ExampleTable::class)->name('example');
