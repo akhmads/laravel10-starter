@@ -13,8 +13,7 @@ Laravel 10 Starter includes tailwindcss, livewire and several standard features 
 
 ### Feature
 
--   User Login
--   User Register
+-   User Login, register, change profile, change password
 -   User manager with CRUD functionality, pagination, search and sort
 -   Example resource include
     -   Table
@@ -26,8 +25,6 @@ Laravel 10 Starter includes tailwindcss, livewire and several standard features 
     -   Email with unique validation
     -   Upload an avatar
     -   Contact picker
--   Change Profile
--   Change Password (upcoming...)
 
 ### Requirements
 
