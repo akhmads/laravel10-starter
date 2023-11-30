@@ -31,6 +31,10 @@ class ChangePassword extends Component
         $auth->password = Hash::make($this->new_password);
         $auth->save();
 
+        $this->current_password = '';
+        $this->new_password = '';
+        $this->confirm_password = '';
+
         session()->flash('success', __('Password has been changed'));
     }
 }
